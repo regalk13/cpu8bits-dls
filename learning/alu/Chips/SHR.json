@@ -37,6 +37,17 @@
       "BitCount":8,
       "Colour":0,
       "ValueDisplayMode":0
+    },
+    {
+      "Name":"VF",
+      "ID":1303739721,
+      "Position":{
+        "x":3.63027,
+        "y":-2.96124
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
     }
   ],
   "SubChips":[
@@ -223,6 +234,20 @@
       "TargetPinAddress":{
         "PinID":0,
         "PinOwnerID":1438906667
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":8,
+        "PinOwnerID":858394339
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1303739721
       },
       "ConnectionType":0,
       "ConnectedWireIndex":-1,
