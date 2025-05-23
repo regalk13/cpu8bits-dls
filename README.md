@@ -7,9 +7,9 @@ Making an 8-BIT CPU on [Digital Logic Simulator](https://github.com/SebLague/Dig
 
 ### Steps
 
-- Basic [ALU](https://github.com/regalk13/cpu8bits-dls/tree/main/learning/alu)
+- [ALU 4-8 BITS](https://github.com/regalk13/cpu8bits-dls/tree/main/learning/alu)
 
-- ...
+- [CPU](https://github.com/regalk13/cpu8bits-dls/tree/main/cpu) - main schematics -
 
 ## Resources
 
