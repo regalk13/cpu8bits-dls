@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-05-20T20:09:00.695Z",
-  "LastSaveTime": "2025-05-22T21:48:06.061Z",
+  "LastSaveTime": "2025-05-30T11:53:18.116-05:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 0,
   "Prefs_GridDisplayMode": 1,
@@ -28,7 +28,6 @@
     "8BIT OR",
     "8BIT AND",
     "SHR",
-    "C-0",
     "SHL",
     "ZERO FLAG",
     "8bitcpu"
@@ -39,84 +38,24 @@
       "IsCollection":true
     },
     {
-      "Name":"NAND",
-      "IsCollection":false
-    },
-    {
-      "Name":"NOT",
-      "IsCollection":false
-    },
-    {
       "Name":"ALU",
-      "IsCollection":false
-    },
-    {
-      "Name":"AND",
-      "IsCollection":false
-    },
-    {
-      "Name":"OR",
-      "IsCollection":false
-    },
-    {
-      "Name":"XOR",
-      "IsCollection":false
+      "IsCollection":true
     },
     {
       "Name":"ADDER",
-      "IsCollection":false
+      "IsCollection":true
     },
     {
-      "Name":"4BIT ADDER",
-      "IsCollection":false
+      "Name":"LOGIC",
+      "IsCollection":true
     },
     {
-      "Name":"8BIT ADDER",
-      "IsCollection":false
+      "Name":"SHIFTS",
+      "IsCollection":true
     },
     {
-      "Name":"ALU-4bit",
-      "IsCollection":false
-    },
-    {
-      "Name":"8-1BIT",
-      "IsCollection":false
-    },
-    {
-      "Name":"8BIT XOR",
-      "IsCollection":false
-    },
-    {
-      "Name":"8BIT BUFFER",
-      "IsCollection":false
-    },
-    {
-      "Name":"4BIT BUFFER",
-      "IsCollection":false
-    },
-    {
-      "Name":"8BIT OR",
-      "IsCollection":false
-    },
-    {
-      "Name":"8BIT AND",
-      "IsCollection":false
-    },
-    {
-      "Name":"SHR",
-      "IsCollection":false
-    },
-    {
-      "Name":"C-0",
-      "IsCollection":false
-    },
-    {
-      "Name":"SHL",
-      "IsCollection":false
-    },
-    {
-      "Name":"ZERO FLAG",
-      "IsCollection":false
+      "Name":"BUFFERS",
+      "IsCollection":true
     },
     {
       "Name":"8bitcpu",
@@ -126,38 +65,63 @@
   "ChipCollections":[
     {
       "Chips":["NAND","CLOCK","PULSE","KEY","3-STATE BUFFER"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"BASIC"
     },
     {
       "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"IN/OUT"
     },
     {
       "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"MERGE/SPLIT"
     },
     {
       "Chips":["BUS-1","BUS-4","BUS-8"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"BUS"
     },
     {
       "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"DISPLAY"
     },
     {
       "Chips":["ROM 256×16"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"MEMORY"
     },
     {
-      "Chips":["BUZZER","NOT","AND","OR","XOR","ADDER","4BIT ADDER","ALU","8BIT ADDER","ALU-4bit","8BIT XOR","8BIT BUFFER","4BIT BUFFER","8BIT OR","8BIT AND","SHR","C-0","SHL","ZERO FLAG"],
+      "Chips":["BUZZER","8bitcpu"],
       "IsToggledOpen":true,
       "Name":"OTHER"
+    },
+    {
+      "Chips":["ALU-4bit","ALU"],
+      "IsToggledOpen":false,
+      "Name":"ALU"
+    },
+    {
+      "Chips":["XOR","OR","AND","NOT","8BIT ADDER","ADDER","4BIT ADDER"],
+      "IsToggledOpen":false,
+      "Name":"ADDER"
+    },
+    {
+      "Chips":["ZERO FLAG","8BIT AND","8BIT OR","8BIT XOR"],
+      "IsToggledOpen":false,
+      "Name":"LOGIC"
+    },
+    {
+      "Chips":["SHL","SHR"],
+      "IsToggledOpen":true,
+      "Name":"SHIFTS"
+    },
+    {
+      "Chips":["8BIT BUFFER","4BIT BUFFER"],
+      "IsToggledOpen":false,
+      "Name":"BUFFERS"
     }
   ]
 }
